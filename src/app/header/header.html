@@ -1,13 +1,22 @@
-<header>
+<header class="header">
     <nav>
         <div>
-            <a class ="nom">Thierry</a>
+            <a href="#home" class="logo"><span>Thierry</span></a>
         </div>
         <div>
-            <a class ="nav">Accueil</a>
-            <a class ="nav">Compétence</a>
-            <a class ="nav">Projet</a>
-            <a class ="nav">Contact</a>
+            <a href="#home">Accueil</a>
+            <a href="competence">Compétence</a>
+            <a href="#projet">Projet</a>
+            <a href="#contact">Contact</a>
     </div>
     </nav>
+    <section>
+        <div class="accueil-img">
+            <img src = 'photo-temp.png'>
+        </div>
+        <div class="accueil-txt">
+            <h1>Bonjour, je suis <span>Thierry</span></h1>
+            <h3>Je suis <span class="typing">{{ displayedText }}</span></h3>
+        </div>
+    </section>
 </header>
